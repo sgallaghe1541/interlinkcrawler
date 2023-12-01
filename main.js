@@ -1,5 +1,6 @@
 const { argv } = require('node:process');
 const { crawlPage } = require('./crawl.js');
+const { printReport } = reqire('./report.js');
 
 async function main() {
     if (argv.length < 3) {
